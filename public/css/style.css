@@ -179,6 +179,7 @@ h1{
 }
 
 .gridTestmonial{
+    padding-top: 3%;
     display: grid;
     grid-template-columns: auto auto;
     width: 70%;
@@ -298,6 +299,30 @@ h1{
     .about{
         padding-top: 150px;
     }
+
+    .gridTestmonial{
+        padding-top: 5%;
+        width: 90%;
+        gap: 6%;
+    }
+
+    .testmonialBox{
+        padding-top: 10%;
+        padding-right: 9%;
+        width: 70%;
+    }
+
+    #avatar2{
+        width: 9%;
+        left: 20%;
+        top: 297%;
+    }
+
+    #avatar3{
+        width: 9%;
+        left: 68%;
+        top: 297%;
+    }
 }
 
 @media (max-width:767px){
@@ -356,5 +381,21 @@ h1{
     }
     .prix{
         font-size: 20px;
+    }
+
+    #avatar2{
+        left: 16%;
+        top: 298%;
+        width: 17%;
+    }
+
+    #avatar3{
+        left: 63%;
+        width: 17%;
+        top: 298%;
+    }
+
+    .gridTestmonial{
+        padding-top: 10%;
     }
 }
