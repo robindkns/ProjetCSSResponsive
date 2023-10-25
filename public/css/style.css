@@ -178,6 +178,42 @@ h1{
     flex-direction: column;
 }
 
+.gridTestmonial{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    gap: 15%;
+}
+
+.testmonialBox{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#avatar2{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 6%;
+    position: absolute;
+    left: 11.5%;
+}
+
+#avatar3{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 6%;
+    position: absolute;
+    left: 52.5%;
+}
+
+.autor{
+    color: #7162ab;
+    font-weight: bolder;
+}
+
 @media (max-width:1700px){
     .about{
         padding-top: 300px;
