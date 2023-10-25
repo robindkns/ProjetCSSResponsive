@@ -6,11 +6,11 @@ html{
 
 header{
     background-image:linear-gradient(to bottom, transparent, transparent, white), url("../images/header.jpg");
-    background-size: cover;
-    height: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
     width: 100%;
     margin-top: -100px;
-    background-position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -47,14 +47,13 @@ h5{
 h1{
     font-weight: bolder;
     color: #7162ab;
+    margin-top: -1%;
 }
 
 .header{
-    padding-top: 250px;
+    padding-top: 170px;
     display: block;
     margin: 0 auto;
-    /* justify-content: center;
-    flex-direction: column; */
     width: 35%;
 }
 
@@ -72,14 +71,14 @@ h1{
 
 #header3{
     color: #5a595d;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .about{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .whoami{
@@ -89,6 +88,46 @@ h1{
 .about img{
     height: 300px;
     width: 300px;
+    position: relative;
+}
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricingGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    & div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: lightgray 1px solid;
+        width: 400px;
+        padding-top: 25px;
+    }
+    & img{
+        width: 75px;
+        height: 75px;
+        padding-bottom: 5%;
+    }
+    & p{
+        color: #a8a8a8;
+        text-align: center;
+    }
+}
+
+.croix{
+    margin-bottom: 5px;
+}
+
+.prix{
+    color: black;
+    font-size: x-large;
 }
 
 #btnAboutMe{
@@ -97,6 +136,9 @@ h1{
     padding: 9px;
     border-radius: 25px;
     background-color: white;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #btnHeader{
@@ -113,6 +155,130 @@ h1{
     font-family: 'Ubuntu', sans-serif;
 }
 
+@media (max-width:1700px){
+    .about{
+        padding-top: 300px;
+    }
+}
+
 @media (max-width:1439px){
+    header{
+        margin-top: -75px;
+    }
+
+    nav ul{
+        padding-top: 100px;
+        margin-right: 10%;
+    }
+    .header{
+        padding-top: 110px;
+    }
+    #header1{
+        font-size: 45px;
+    }
     
+    #header2{
+        font-size: 60px;
+    }
+    
+    #header3{
+        font-size: 30px;
+    }
+    #btnHeader{
+        font-size: 13px;
+        width: 30%;
+    }
+    .about{
+        padding-top: 160px;
+    }
+}
+
+@media (max-width:1023px){
+    header{
+        height: 70vh;
+        margin-top: -50px;
+    }
+
+    nav ul{
+        padding-top: 80px;
+        margin-right: 10%;
+        font-size: 90%;
+    }
+
+    #header1{
+        font-size: 40px;
+    }
+    
+    #header2{
+        font-size: 55px;
+    }
+    
+    #header3{
+        font-size: 20px;
+    }
+
+    #btnHeader{
+        font-size: 13px;
+        width: 40%;
+    }
+
+    .header{
+        padding-top: 50px;
+    }
+
+    .about{
+        padding-top: 150px;
+    }
+}
+
+@media (max-width:767px){
+    header{
+        margin-top: -20px;
+        height: 50vh;
+    }
+
+    nav ul{
+        padding-top: 30px;
+        margin-right: 10%;
+        font-size: 80%;
+    }
+
+    .about{
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        & img{
+            height: 100px;
+            width: 100px;
+            position:absolute;
+        }
+        & p{
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+
+    #header1{
+        font-size: 40px;
+    }
+    
+    #header2{
+        font-size: 40px;
+    }
+    
+    #header3{
+        font-size: 13px;
+    }
+
+    #btnHeader{
+        width: 60%;
+        font-size: 10px;
+    }
+
+    #btnAboutMe{
+        margin-left: 27%;
+        font-size: 80%;
+    }
+
 }
