@@ -40,6 +40,15 @@ nav ul li{
     }
 }
 
+h5{
+    color: #8c8c8c;
+}
+
+h1{
+    font-weight: bolder;
+    color: #7162ab;
+}
+
 .header{
     padding-top: 250px;
     display: block;
@@ -66,6 +75,30 @@ nav ul li{
     font-size: 50px;
 }
 
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.whoami{
+    width: 50%;
+}
+
+.about img{
+    height: 300px;
+    width: 300px;
+}
+
+#btnAboutMe{
+    color: #7162ab;
+    border: #7162ab solid 1px;
+    padding: 9px;
+    border-radius: 25px;
+    background-color: white;
+}
+
 #btnHeader{
     margin-top: 8%;
     background-color: #7162ab;
@@ -78,4 +111,8 @@ nav ul li{
     font-family: 'Noto Sans Osmanya', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width:1439px){
+    
 }
