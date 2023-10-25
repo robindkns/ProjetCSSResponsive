@@ -171,6 +171,13 @@ h1{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.testmonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 @media (max-width:1700px){
     .about{
         padding-top: 300px;
@@ -307,4 +314,11 @@ h1{
         font-size: 80%;
     }
 
+    .pricingGrid{
+        width: 100%;
+        font-size: 15px;
+    }
+    .prix{
+        font-size: 20px;
+    }
 }
