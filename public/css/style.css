@@ -1,4 +1,56 @@
 html{
-    display: flex;
-    justify-content: center;
+  margin: 0;
+  width: auto;
+}
+
+.body{
+  font-family: 'Noto Sans Osmanya', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.service{
+ color: #7162ab;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+#couleur{
+  color: #8c8c8c;
+}
+.cards{
+  border: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+}
+
+.blockCards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+}
+
+.cards img{
+  height: 50px;
+  width: 50px;
+}
+.portfolio{
+  color:#7162ab;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.folio{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.imgfolio{
+  display: flex;
+  justify-content: space-around;
+  
 }
