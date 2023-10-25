@@ -1,4 +1,17 @@
 html{
-    display: flex;
-    justify-content: center;
+    width: auto;
 }
+
+header{
+    background-image:linear-gradient(to bottom, transparent, transparent, white), url("../images/header.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+body{
+    margin: 0;
+    width: auto;
+}
+
