@@ -143,8 +143,9 @@ h1{
     padding-bottom: 8px;
     padding-left: 15px;
     padding-right: 15px;
-
 }
+
+
 
 #btnAboutMe{
     color: #7162ab;
@@ -212,7 +213,6 @@ h3{
     flex-direction: row;
     width: 70%;
     margin-bottom: 3%;
-    
     border: solid 1px lightgray;
     & img{
         width: 42%;
