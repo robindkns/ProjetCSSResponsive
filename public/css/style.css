@@ -1,8 +1,122 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 html{
-    width: auto;
+  margin: 0;
+  width: auto;
 }
+
+.body{
+  font-family: 'Noto Sans Osmanya', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.service{
+ color: #7162ab;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+#couleur{
+  color: #8c8c8c;
+}
+.cards{
+  border: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+}
+
+.blockCards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+}
+
+.cards img{
+  height: 50px;
+  width: 50px;
+}
+.portfolio{
+  color:#7162ab;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.folio{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.imgfolio{
+  display: flex;
+  justify-content: space-around;
+}
+.hireme{
+  background-color: #7162ab;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+#taille{
+font-weight: bold;
+}
+.contact{
+  color: #7162ab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+h1{
+  margin-top: -1%;
+}
+.action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  
+}
+#forom{
+  width: 50%;
+  height: 100px;
+  border: solid 1px lightgrey;
+}
+#taillebutton{
+  color: #7162ab;
+  border: solid 1px #7162ab;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: white;
+  margin-top: 2%;
+}
+footer{
+  color: #8c8c8c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border-top: solid 1px lightgray;
+  margin: 0 auto;
+  margin-top: 5%;
+  & img{
+    width: 3%;
+  }
+}
+#reseaux{
+  display: flex;
+  justify-content: flex-end;
+}
+#copyright{
+  width: 100%;
 
 header{
     background-image:linear-gradient(to bottom, transparent, transparent, white), url("../images/header.jpg");
@@ -461,4 +575,4 @@ h3{
     .blogBox{
         font-size: small;
     }
-}
+  }
