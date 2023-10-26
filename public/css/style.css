@@ -101,15 +101,71 @@ h3{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 5%;
 }
-.folio{
-    display: grid;
-    grid-template-columns: auto auto auto;
+
+.imgfolio:hover .transparent{
+    width: 300px;
+    height: 300px;
+    animation: portfolio1 linear 1 forwards;
+    animation-duration: .5s;
+    opacity: 3;
 }
+
+.transparent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 0%;
+    height: 0%;
+    color: #7162ab00;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+}
+.transparent>h2{
+    color: #7162ab;
+}
+
+.folio{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 70%;
+}
+
 .imgfolio{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-folio-1 {
+    background: url("../images/folio-1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+.img-folio-2 {
+    background: url("../images/folio-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+.img-folio-3 {
+    background: url("../images/folio-3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes portfolio1 {
+    from {font-size: O; border-radius: 100%; background: rgba(255, 255, 255, 0.5); color: rgba(0, 0, 0, 0); height: 0%; width: 0%;}
+    to {font-size: smaller; border-radius: 0%; background: rgba(255, 255, 255, 0.5); color: black; height: 100%; width: 100%;}
 }
 
 /* Partie de la section Hire */
