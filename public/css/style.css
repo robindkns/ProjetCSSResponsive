@@ -68,10 +68,22 @@ html{
     display: flex;
     color: white;
     justify-content: space-evenly;
-    align-items: center; 
+    align-items: center;
+    padding-top: 1%; 
+    padding-bottom: 1%;
 }
 #taille{
-font-weight: bold;
+    font-weight: bolder;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.01px solid #7162ab;
+    border-radius: 5px;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .contact{
     color: #7162ab;
@@ -118,6 +130,7 @@ footer{
     border-top: solid 1px lightgray;
     margin: 0 auto;
     margin-top: 5%;
+    padding-top: 1%;
     & img{
         width: 3%;
     }
@@ -125,8 +138,13 @@ footer{
 #reseaux{
     display: flex;
     justify-content: flex-end;
+    
     & a{
-        text-decoration: none;
+        color: #8c8c8c;
+        margin-left: 5%;
+        padding: 7%;
+        border: #a8a8a8 2px solid;
+        border-radius: 50%;
     }
 }
 #copyright{
@@ -524,6 +542,10 @@ h3{
         left: 68%;
         top: 457%;
     }
+
+    #reseaux{
+        padding: 1%;
+    }
 }
 
 @media (max-width:767px){
@@ -603,4 +625,15 @@ h3{
     .blogBox{
         font-size: small;
     }
-  }
+    #copyright{
+        font-size: 10px;
+        width: 80px;
+    }
+    .blockCards{
+        width: 100%;
+    }
+
+    #reseaux{
+        padding: 0px;
+    }
+}
