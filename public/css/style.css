@@ -98,4 +98,21 @@ h1{
 }
 footer{
   color: #8c8c8c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border-top: solid 1px lightgray;
+  margin: 0 auto;
+  margin-top: 5%;
+  & img{
+    width: 3%;
+  }
+}
+#reseaux{
+  display: flex;
+  justify-content: flex-end;
+}
+#copyright{
+  width: 100%;
 }
