@@ -57,7 +57,6 @@ html{
 
 .cards{
     overflow: hidden;
-    
 }
 
 .cards:hover {
@@ -670,5 +669,22 @@ h3{
 
     #reseaux{
         padding: 0px;
+    }
+
+    .pBas{
+        padding-top: 120%;
+    }
+
+    .pHaut{
+        padding-top: 280%;
+    }
+
+    @keyframes slideService{
+        0%{
+            padding-bottom: 0%;
+        }
+        100%{
+            padding-bottom: 520%;
+        }
     }
 }
