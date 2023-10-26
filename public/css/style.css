@@ -194,6 +194,50 @@ h1{
     padding-bottom: 5%;
 }
 
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    color: #7162ab;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+.blogBox{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-bottom: 3%;
+    border: solid 1px lightgray;
+    & img{
+        width: 42%;
+    }
+}
+
+.blogP{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment{
+    color: #8c8c8c;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.comment2{
+    font-weight: 500;
+}
+
+.comment img{
+    width: 2%;
+}
+
 #avatar2{
     border: 5px solid white;
     border-radius: 50%;
