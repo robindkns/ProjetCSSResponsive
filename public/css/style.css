@@ -1,3 +1,4 @@
+
 html{
   margin: 0;
   width: auto;
@@ -52,5 +53,15 @@ html{
 .imgfolio{
   display: flex;
   justify-content: space-around;
-  
+}
+.hireme{
+  background-color: #7162ab;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+#taille{
+font-weight: bold;
 }
