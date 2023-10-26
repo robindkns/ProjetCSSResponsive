@@ -8,12 +8,33 @@
 </head>
 <body>
     <header>
-        <nav></nav>
-        <div></div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Testmonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <span id="header1">Hi !</span><br><br>
+            <span id="header2">I'm Ze<br>Barber</span><br>
+            <span id="header3">Frontend Web Designer</span><br>
+            <button id="btnHeader">Visit My Works</button>
+        </div>
     </header>
     <section class="about">
-        <div></div>
-        <div></div>
+        <div>
+            <img src="./public/images/man.png">
+        </div>
+        <div class="whoami">
+            <h5>Who Am I ?</h5>
+            <h1>About Me</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque adipisci tempora doloremque dolorem animi quod iste a velit sunt id ipsa error quos voluptatibus veniam vero debitis, dolor voluptate necessitatibus dolore. Architecto officia ipsa rem eligendi maiores, facilis repellendus ea quia optio tempora delectus? Perferendis repudiandae ab vel odit sit fugit ullam error vero quaerat? In vero, distinctio omnis necessitatibus facilis eveniet, sed delectus laborum debitis, soluta repellat inventore eum.</p>
+            <button id="btnAboutMe">Download CV</button>
+        </div>
     </section>
     <section class="service">
         <h5 id="couleur">What I Do</h5>
@@ -46,11 +67,43 @@
         </div>
     </section>
     <section class="pricing">
-        <h5></h5>
-        <h1></h1>
-        <div></div>
-        <div></div>
-        <div></div>
+        <h5>How Much I Charge ?</h5>
+        <h1>My Pricing</h1>
+        <div class="pricingGrid">
+            <div>
+                <img src="./public/images/scooter.svg">
+                <h1>Free</h1>
+                <p class="croix">
+                    accusamus reprehenderit<br><br>provident dolorem<br><br>quos neque<br><br>fugiat quibusdam<br><br><img src="./public/images/x.png" id="croix"><br><img src="./public/images/x.png" id="croix">
+                </p>
+                <p>
+                    <span class="prix"><sup>$</sup></span><span class="prix">99.9/Month</span>
+                </p>
+                <button class="btnPricing">Subscribe</button><br><br>
+            </div>
+            <div>
+                <img src="./public/images/shipped.svg">
+                <h1>Basic</h1>
+                <p class="croix">
+                    accusamus reprehenderit<br><br>provident dolorem<br><br>quos neque<br><br>fugiat quibusdam<br><br>accusamus laboriosam<br><br><img src="./public/images/x.png" id="croix">
+                </p>
+                <p>
+                    <span class="prix"><sup>$</sup></span><span class="prix">99.9/Month</span>
+                </p>
+                <button class="btnPricing">Subscribe</button><br><br>
+            </div>
+            <div>
+                <img src="./public/images/startup.svg">
+                <h1>Premium</h1>
+                <p>
+                    accusamus reprehenderit<br><br>provident dolorem<br><br>quos neque<br><br>fugiat quibusdam<br><br>accusamus laboriosam<br><br>inventore omnis
+                </p>
+                <p>
+                    <span class="prix"><sup>$</sup></span><span class="prix">99.9/Month</span>
+                </p>
+                <button class="btnPricing">Subscribe</button><br><br>
+            </div>
+        </div>
     </section>
     <section class="hire">
         <div class="hireme">
@@ -62,16 +115,45 @@
         </div>
     </section>
     <section class="testmonial">
-        <h5></h5>
-        <h1></h1>
-        <div></div>
-        <div></div>
+        <h5>What Think Client About Me</h5>
+        <h1>Testmonial</h1>
+        <div class="gridTestmonial">
+            <div class="testmonialBox">
+                <img src="./public/images/avatar2.jpg" id="avatar2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur cumque temporibus distinctio cupiditate adipisci dolore rem ad aut quod exercitationem.</p>
+                <span class="autor">Emily Reb</span>
+            </div>
+            <div class="testmonialBox">
+                <img src="./public/images/avatar3.jpg" id="avatar3">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut voluptatibus corporis possimus, quaerat animi dignissimos reprehenderit hic officia eos deleniti.</p>
+                <span class="autor">Emily Reb</span>
+            </div>
+        </div>
     </section>
     <section class="blog">
-        <h5></h5>
-        <h1></h1>
-        <div></div>
-        <div></div>
+        <h5>Recent Posts</h5>
+        <h1>Blog</h1>
+        <div class="blogBox">
+            <img src="./public/images/img-1.jpg" id="img1">
+            <div class="blogP">
+                <h3>Consectetur adipisicing elit</h3>
+                <span class="comment">By:Admin <img src="./public/images/heart.png"> 234 <img src="./public/images/comment.png"> 123</span>
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque amet nostrum consectetur sequi ipsam maiores, est reprehenderit eveniet suscipit velit nobis ullam porro atque, pariatur quis delectus dolores placeat!<br><br>
+                <span class="comment2">Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</span>
+                <br>Magnam in repellat enim harum omnis aperium! Explicabo illo, commodi, dolor blanditiis, cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.
+                <br><br><a href="" class="comment3">Read More >></a>
+            </div>
+        </div>
+        <div class="blogBox">
+            <img src="./public/images/img-2.jpg" id="img2">
+            <div class="blogP">
+                <h3>Explicabo illo</h3>
+                <span class="comment">By:Admin <img src="./public/images/heart.png"> 456 <img src="./public/images/comment.png"> 264</span>
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae neque amet nostrum consectetur sequi ipsam maiores, est reprehenderit eveniet suscipit velit nobis ullam porro atque, pariatur quis delectus dolores placeat!<br>
+                Magnam in repellat enim harum omnis aperium! Explicabo illo, commodi, dolor blanditiis, cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate neque repudiandae amet optio? Ipsa adipisci quasi odit a atque ducimus aut aliquid? Distinctio est dignissimos iusto molestias, repudiandae dolorem earum!
+                <br><br><a href="" class="comment3">Read More >></a>
+            </div>
+        </div>
     </section>
     <section class="contact">
         <h5 id="couleur">How can you communicate ?</h5>
